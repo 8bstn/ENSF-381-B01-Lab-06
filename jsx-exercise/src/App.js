@@ -2,6 +2,7 @@ import React from 'react';
 import Home from './Home';
 import About from './About';
 import Contact from './Contact';
+import EngineeringTopics from './EngineeringTopics';
 
 function App() {
   // Exercise 1: Embed JavaScript Expressions in JSX || Using a conditional statement in JSX
@@ -25,7 +26,7 @@ function App() {
 
       {/* Exercise 3: Lists and Modularization */}
 
-      
+      <EngineeringTopics />
 
     </div>
   );
