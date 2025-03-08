@@ -11,14 +11,14 @@ function App() {
 
   return (
     <div>
-      {/* Exercise 1 */}
+      {/* Exercise 1: Understanding JSX Syntax */}
 
       <h1>ENSF-381: Full Stack Web Development</h1>
       <p>React Components</p>
       <p>Current Year: {currentYear}</p>
       <p>{isLoggedIn ? "Welcome back!" : "Please log in."}</p>
       
-      {/* Exercise 2 */}
+      {/* Exercise 2: Creating Components */}
 
       <Home title = "Home Page" description = "Welcome to our website" />
       <About title = "About Us" description = "We are passionate about delivering quality experiences" />
